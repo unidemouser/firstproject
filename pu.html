@@ -33,6 +33,10 @@
 				text-align: justify;
 				font-size: 16px;
 			}
+			th, td{
+				border: 1px solid black;
+				border-collapse: collapse;;
+			}
 		</style>
 	</head>
 	<body>
@@ -42,6 +46,7 @@
 </div>
 
 <div class="big" style="width:100%">
+ <!--	this is beginning of left nav -->
 	<div id="left-nav" class="big">
 		<ul style="list-style:none;text-decoration:none">
 			<li><a style="" href="tu.html">Tribhuwan University</a></li>
@@ -51,24 +56,54 @@
 			<li><a href="fw.html">Far western University</a></li>
 		</ul>
 	</div>
+	<!-- this is end of leftnav -->
+
+	<!-- image cited from tu websie -->
 	<div style="" id="content"  class="big">
-		<img src="convocation.jpg" alt="">
+		<!-- <a href="#go">Go to buton</a> -->
+		<img src="images/convocation.jpg" alt="convocatio image" title="kjkkbjbjbjhjhj">
 		<p id="desc">
 			On the Insert tab, the galleries include items that are
 			designed to coordinate with the overall look of your
 			document. You can use these galleries to insert tables,
 			 headers, footers, lists, cover pages, and other document
-			 building blocks.<br><br> When you create pictures, charts, or
-			  diagrams, they also coordinate with your current document look.
+			 building blocks.<br><!-- middle section --> <br>
+			 <span style="color:rgb(0,0,255)">When you create pictures, charts, or</span>
+			  diagrams, they also <span style="color:#545313">coordinate</span> with your current document look.
 You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly.
-To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Style gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template.
+To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick
+ Style gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands
+ so that you can always restore the look of your document to the original contained in your current <span id="go">template.</span>
 
 		</p>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Address</th>
+				<td>Name</td>
+				<td>Address</td>
+				<td>Name</td>
+				<td>Address</td>
+			</tr>
+			<tr>
+				<td>Name</td>
+				<td>Address</td>
+				<td colspan="2">Name</td>
+				<td>Name</td>
+				<td>Address</td>
+
+			</tr>
+		</table>
+
 	</div>
-	<div style="" id="right-nav"  class="big">
+	<div style="clear:both" id="right-nav"  class="big">
 	right
 	</div>
 </div>
+<div class="style:clear:both">
+
+</div>
+
 <div class="">
 	footer
 </div>
